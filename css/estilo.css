@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body{
+    background: linear-gradient(to top,transparent,rgba(239,46.28,.5)), url(images/service-4.jpg);
+}

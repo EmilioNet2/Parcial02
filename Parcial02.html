@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Parcial 2 &mdash; Pagina Web</title>
+    <meta name="description" content="Cooley Tours">
+    <meta charset="utf-8">
+    <meta name="author" content="Emilio Cooley">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="appear-animate"> 
+    <div class="page" id="top">
+        <!-- Menu -->
+        <nav class="main-nav dark light-after-scroll transparent stick-fixed wow-menubar wch-unset">
+            <div class="main-nav-sub full-wrapper">                
+                <div class="nav-logo-wrap local-scroll">
+                    <a href="#top" class="logo">
+                        <img src="images/logo.png" alt="Your Company Logo" width="204" height="52" class="logo-white" />
+                        <img src="images/logo2.png" alt="Your Company Logo" width="204" height="52" class="logo-dark" />
+                    </a>
+                </div>
+                <!-- Menu dispositivos moviles -->
+                <div class="mobile-nav" role="button" tabindex="0">
+                    <i class="mobile-nav-icon"></i>
+                    <span class="visually-hidden">Menu</span>
+                </div>
+                <!-- Menu principal -->
+                <div class="inner-nav desktop-nav">
+                    <ul class="clearlist scroll-nav local-scroll">
+                        <li><a href="#home" class="active">Inicio</a></li>
+                        <li><a href="#api">Tecnologias de Web APIs</a></li>
+                        <li><a href="#micro">Microservicios</a></li>
+                        <li><a href="#con">Manejo de Contenedores</a></li>
+                        <li><a href="#nube">Aplicaciones para la Nube</a></li>  
+                        <li><a href="#asp">ASP.NET</a></li>                       
+                    </ul>
+                    <ul class="items-end clearlist local-scroll">
+                        <li>
+                            <a href="#contact" class="opacity-1 no-hover">
+                                <span class="link-hover-anim underline" data-link-animate="y">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Fin Menu principal -->
+            </div>
+        </nav>
+        <!-- Fin Menu -->
+
+        <main id="main">
+            <!-- Imagenes -->
+            <div class="home-section fullwidth-slider-fade bg-dark light-content" id="home">               
+                <!-- Imagen 1 -->
+                <section class="home-section bg-scroll bg-dark-alpha-60 light-content"
+                    style="background-image: url(images/web-api-la-gi.jpg)">
+                    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">                       
+                        <div class="home-content">
+                            <div class="row">                                
+                                <div class="col-md-10 offset-md-1 mb-20 mb-sm-0">
+                                    <h2 class="hs-title-11 mb-50 mb-xs-10 owl-animate-fadeInUp">
+                                        ¿Que es un?
+                                    </h2>
+                                    <h1 class="hs-title-12 mb-50 mb-sm-30">
+                                        <span class="owl-animate-chars" data-splitting="chars">Web APIs</span>
+                                    </h1>
+                                    <h2 class="hs-title-10 mb-30 mb-xs-10 owl-animate-fadeInUp">
+                                        Aqui encontraras la respuesta
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="local-scroll scroll-down-wrap-4 d-none d-sm-block wow fadeInUp" data-wow-offset="0">
+                            <div class="full-wrapper text-end">
+                                <a href="#about" class="scroll-down-4">
+                                    <i class="mi-arrow-down size-24"></i>
+                                </a>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </section>
+                <!-- Fin Imagen 1 -->
+
+                <!-- Imagen 2 -->
+                <section class="home-section bg-scroll bg-dark-alpha-60 light-content"
+                    style="background-image: url(images/microservicios-estructura-1024x550.png)">
+                    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+                        <div class="home-content">
+                            <div class="row">
+                               <div class="col-md-10 offset-md-1 mb-20 mb-sm-0">
+                                    <h2 class="hs-title-11 mb-30 mb-xs-10 owl-animate-fadeInUp">
+                                        Aqui encontraras
+                                    </h2>
+                                    <h1 class="hs-title-12 mb-50 mb-sm-30">
+                                        <span class="owl-animate-chars" data-splitting="chars"> Microservicios</span>
+                                    </h1>
+                                    <h2 class="hs-title-10 mb-30 mb-xs-10 owl-animate-fadeInUp">
+                                        ¿Sabes como se usan?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="local-scroll scroll-down-wrap-4 d-none d-sm-block wow fadeInUp" data-wow-offset="0">
+                            <div class="full-wrapper text-end">
+                                <a href="#about" class="scroll-down-4">
+                                    <i class="mi-arrow-down size-24"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- Fin Imagen 2 -->
+
+                <!-- Imagen 3 -->
+                <section class="home-section bg-scroll bg-dark-alpha-60 light-content"
+                    style="background-image: url(images/aplicaciones-cloud.jpg)">
+                    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100 pt-sm-120 pb-sm-120">
+                        <div class="home-content">
+                            <div class="row">
+                                <div class="col-md-10 offset-md-1 mb-20 mb-sm-0">
+                                    <h2 class="hs-title-11 mb-30 mb-xs-10 owl-animate-fadeInUp">
+                                        ¿Para que sirven?
+                                    </h2>
+                                    <h1 class="hs-title-12 mb-50 mb-sm-30">
+                                        <span class="owl-animate-chars" data-splitting="chars">Aplicaciones en la Nube</span>
+                                    </h1>
+                                    <h2 class="hs-title-10 mb-30 mb-xs-10 owl-animate-fadeInUp">
+                                        Quedate para averiguarlo
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="local-scroll scroll-down-wrap-4 d-none d-sm-block wow fadeInUp" data-wow-offset="0">
+                            <div class="full-wrapper text-end">
+                                <a href="#about" class="scroll-down-4">
+                                    <i class="mi-arrow-down size-24"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- Fin Imagen 3 -->
+
+            </div>
+            <!-- Fin Imagenes -->
+
+
+            <!-- Acerca de -->
+            <section class="page-section" id="api">
+                <div class="container position-relative">
+                    <div class="row mb-60 mb-xs-30">
+                        <div class="col-md-6">
+                            <h2 class="section-caption mb-xs-10">Acerca de</h2>
+                            <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Tecnologías de Web APIs</span></h3>
+                        </div>
+                        <div class="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
+                            <div class="decoration-2 d-none d-md-block" data-rellax-y data-rellax-speed="0.7"
+                                data-rellax-percentage="-0.2">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-lg-6 mb-md-60">
+                            <div class="position-relative">
+                                <div class="position-relative overflow-hidden">
+                                    <img src="images/api_portada.jpg" class="image-fullwidth relative"
+                                        alt="Image Description" />
+                                </div>
+                                <div class="decoration-1 d-none d-sm-block" data-rellax-y data-rellax-speed="1"
+                                    data-rellax-percentage="0.1">
+                                    <img src="images/decoration-1.svg" alt="" />
+                                </div>
+                            </div>
+                            <h4 class="h5" style="margin-top: 80px;">Información.</h4>
+                            <p class="text-gray">
+                                llllLas Web APIs son interfaces que permiten la comunicación entre diferentes sistemas a través de la web. 
+                                Algunas tecnologías comunes para desarrollar Web APIs incluyen:
+                                REST (Representational State Transfer), GraphQL, y SOAP (Simple Object Access Protocol).
+                            </p>
+                            
+                        </div>
+                        <div class="col-lg-6 col-xl-5 offset-xl-1">
+                            <h4 class="h5">Información.</h4>
+                            <p class="text-gray">
+                                Las Web APIs son interfaces que permiten la comunicación entre diferentes sistemas a través de la web. 
+                                Algunas tecnologías comunes para desarrollar Web APIs incluyen:
+                                REST (Representational State Transfer), GraphQL, y SOAP (Simple Object Access Protocol).
+                            </p>
+                            <p class="text-gray">
+                                Significado: “Chichen Itza”, al borde del pozo donde viven los Sabios del Agua. Esto es
+                                lo que significa Chichén Itzá en maya.<br>
+                                Edificios: La Pirámide de Chichén Itzá o El Castillo es la ruina o edificio maya más
+                                asombroso dentro del Sitio Arqueológico.
+                            </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2603LxlQzpk?si=obX1SqQewJnUmDnX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    
+                    </div>
+                </div>
+            </section>
+            <!-- Fin Acerca de -->
+
+           <!-- Acerca deeeeee -->
+           <section class="page-section" id="services">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-lg-6 mb-md-60 mb-sm-30">
+                        <h2 class="section-caption mb-xs-10">MAS INFORMACION</h2>
+                        <h3 class="section-title mb-30"><span class="wow charsAnimIn"
+                                data-splitting="chars">Desarrollo de una Web APIs</span>
+                        </h3>
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <p class="section-descr mb-50 mb-sm-30 wow fadeInUp" data-wow-delay="0.4s">
+                            El desarrollo de una Web API implica varios pasos que van desde la planificación inicial hasta el despliegue y mantenimiento.
+                                </p>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs services-tabs wow fadeInUp" data-wow-delay="0.55s" role="tablist">
+                            <li role="presentation">
+                                <a href="#services-item-1" class="active" aria-controls="services-item-1" role="tab"
+                                    aria-selected="true" data-bs-toggle="tab">Planificacion <span
+                                        class="number">01</span></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#services-item-2" aria-controls="services-item-2" role="tab"
+                                    aria-selected="false" data-bs-toggle="tab">Implementacion <span
+                                        class="number">02</span></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#services-item-3" aria-controls="services-item-3" role="tab"
+                                    aria-selected="false" data-bs-toggle="tab">Pruebas <span
+                                        class="number">03</span></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#services-item-4" aria-controls="services-item-4" role="tab"
+                                    aria-selected="false" data-bs-toggle="tab">Despliegue <span
+                                        class="number">04</span></a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#services-item-5" aria-controls="services-item-4" role="tab"
+                                    aria-selected="false" data-bs-toggle="tab">Mantenimiento<span
+                                        class="number">05</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 d-flex wow fadeInLeft" data-wow-delay="0.55s" data-wow-offset="275">
+                        <div class="tab-content services-content">                              
+                            <div class="tab-pane services-content-item show fade active" id="services-item-1"
+                                role="tabpanel">
+                                <div class="services-text">
+                                    <div class="services-text-container">
+                                        <h4 class="services-title">Planificacion</h4>
+                                        <p class="text-gray mb-0">
+                                            Define los requisitos de tu API: Determina qué funcionalidades y datos va a proporcionar tu API 
+                                            y qué tipo de solicitudes HTTP va a aceptar y diseña el esquema de tu API: 
+                                            Define los endpoints, los tipos de datos que se van a manejar y cómo se van a estructurar las solicitudes y respuestas.
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="services-image" src="images/planificacion-personal.jpg"
+                                    alt="Image Description" />
+                            </div>                               
+                            <div class="tab-pane services-content-item fade" id="services-item-2" role="tabpanel">
+                                <div class="services-text">
+                                    <div class="services-text-container">
+                                        <h4 class="services-title">Implementacion</h4>
+                                        <p class="text-gray mb-0">
+                                            Elige una tecnología: Decide qué tecnología o framework vas a utilizar para implementar tu Web API. Algunas opciones comunes incluyen 
+                    ASP.NET Core, Node.js con Express, Django, Flask, entre otros.
+                    Tambien Codifica los endpoints: Implementa los endpoints definidos en el diseño de tu API, escribiendo el código necesario para manejar las solicitudes HTTP y generar las respuestas correspondientes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="services-image" src="images/implementación.jpg"
+                                    alt="Image Description" />
+                            </div>                               
+                            <div class="tab-pane services-content-item fade" id="services-item-3" role="tabpanel">
+                                <div class="services-text">
+                                    <div class="services-text-container">
+                                        <h4 class="services-title">Pruebas</h4>
+                                        <p class="text-gray mb-0">
+                                    Prueba la funcionalidad: Realiza pruebas exhaustivas para asegurarte de que tu API funciona como se espera, incluyendo pruebas de unidad, 
+                                    pruebas de integración y pruebas de extremo a extremo.
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="services-image" src="images/Prueba.jpg"
+                                    alt="Image Description" />
+                            </div>                                
+                            <div class="tab-pane services-content-item fade" id="services-item-4" role="tabpanel">
+                                <div class="services-text">
+                                    <div class="services-text-container">
+                                        <h4 class="services-title">Despliegue</h4>
+                                        <p class="text-gray mb-0">
+                                    Elige un entorno de hospedaje: Decide dónde vas a hospedar tu Web API. Puede ser en un servidor físico, en una máquina virtual, en contenedores Docker o en servicios de la nube como AWS, Azure o Google Cloud Platform.
+                                    Configura el entorno de producción y el entorno de hospedaje para que pueda ejecutar tu API de manera segura y eficiente, asegurándote de que tenga suficiente capacidad de procesamiento.
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="services-image" src="images/despliegue.png"
+                                    alt="Image Description" />
+                            </div>   
+                            <div class="tab-pane services-content-item fade" id="services-item-5" role="tabpanel">
+                                <div class="services-text">
+                                    <div class="services-text-container">
+                                        <h4 class="services-title">Mantenimiento</h4>
+                                        <p class="text-gray mb-0">
+                                        Monitoriza el rendimiento: Supervisa el rendimiento de tu API en producción para identificar posibles cuellos de botella, errores o degradaciones del rendimiento.</p>
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <img class="services-image" src="images/mantenimiento.png"
+                                    alt="Image Description" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Acerca de -->
+
+
+        <section class="page-section" id="micro">
+            <div class="container position-relative">
+                <div class="row mb-60 mb-xs-30">
+                    <div class="col-md-6">
+                        <h2 class="section-caption mb-xs-10">ACERCA DE</h2>
+                        <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Microservicios</span></h3>
+                    </div>
+                    <img src="images/microservicios-estructura-1024x550.png" alt="" />
+                    <p class="text-gray">
+                        Los microservicios son una arquitectura de diseño de software que estructura una aplicación como un conjunto de servicios pequeños, independientes, altamente cohesionados y débilmente acoplados. 
+                        Cada uno de estos servicios está centrado en realizar una tarea específica dentro de la aplicación y se comunica con otros servicios a través de interfaces bien definidas, generalmente a través de protocolos 
+                        de comunicación ligeros como HTTP o protocolos de mensajería.</p>
+
+                        <p class="text-gray">
+                            En una arquitectura de microservicios, una aplicación compleja se desglosa en capacidades discretas que pueden desarrollarse y operarse de forma independiente. Los microservicios individuales se comunican entre sí, 
+                            a menudo a través de las APIs, y tienen conexiones sueltas, pero cada microservicio puede desarrollarse, implementarse y actualizarse por separado.</p>
+
+                            <h4 class="h5" style="margin-top: 80px;">Nativo de la nube</h4>
+                            <p class="text-gray"> Algunos servicios y aplicaciones establecidos de alto volumen comienzan como microservicios y permanecen en la nube. 
+                            Según International Data Corporation (IDC), alrededor del 56 % de los microservicios son nativos de la nube, mientras que el 44 % restante se originaron como aplicaciones antiguas.</p>
+
+                            <h4 class="h5" style="margin-top: 80px;">Refactorización y cambio</h4>
+                            <p class="text-gray"> Estas implementaciones comienzan en las instalaciones o en un centro de datos en el perímetro y se refactorizan para adaptarse a la arquitectura de microservicios basados en la nube.</p>
+
+                            <h4 class="h5" style="margin-top: 80px;">Lift and shift</h4>
+                            <p class="text-gray"> Algunas organizaciones migran sus aplicaciones a una arquitectura de microservicios, sin refactorización, en una simple transición “lift and shift”.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Tours -->
+            
+            <!-- Fin Tours -->
+
+
+            <!-- Experiencia --> 
+            <section class="page-section" id="con"></section>
+            <section class="page-section bg-dark-1 bg-dark-alpha-80 parallax-5 light-content"
+                style="background-image: url(images/Contenedor.png)">
+                <div class="container position-relative">
+                    <div class="row">
+                        <div class="col-lg-4 mb-md-60 mb-xs-50">
+                            <h2 class="section-title mb-20 wow fadeInUp">Manejo de Contenedores</h2>
+                            <p class="section-descr mb-40 wow fadeInUp" data-wow-delay="0.1s">
+                                Los contenedores son entornos ligeros y portátiles que encapsulan una aplicación junto con todas sus dependencias y configuraciones 
+                                necesarias para ejecutarse de manera consistente en diferentes entornos. 
+                            </p>
+                            <p class="section-descr mb-40 wow fadeInUp" data-wow-delay="0.1s">
+                                Los contenedores utilizan tecnologías de virtualización a nivel de sistema operativo para proporcionar aislamiento y portabilidad. 
+                                Esto se logra utilizando funcionalidades del kernel del sistema operativo para aislar los recursos del contenedor, como el espacio de nombres de procesos, 
+                                el espacio de nombres de red y los recursos de CPU y memoria. 
+                            </p>
+                        </div>
+                        <div class="col-lg-7 offset-lg-1">                           
+                            <div class="row mt-n50 mt-xs-n30">                                
+                                <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.4s">
+                                    <div class="number-title mb-10">
+                                        Docker:
+                                    </div>
+                                    <div class="number-descr">
+                                   Docker es la plataforma de contenedores más popular que facilita la creación, gestión y despliegue de contenedores de manera sencilla y eficiente.
+                                    </div>
+                                </div>              
+                                <div class="col-sm-6 col-lg-5 offset-lg-2 mt-50 mt-xs-30 wow fadeScaleIn"
+                                    data-wow-delay="0.6s">
+                                    <div class="number-title mb-10">
+                                        Docker Compose:
+                                    </div>
+                                    <div class="number-descr">
+                                        Docker Compose es una herramienta que permite definir y gestionar aplicaciones multi-contenedor utilizando un archivo YAML para configurar los servicios de la aplicación y sus interconexiones.
+                                    </div>
+                                </div>                              
+                                <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.8s">
+                                    <div class="number-title mb-10">
+                                        Eficiencia:
+                                    </div>
+                                    <div class="number-descr">
+                                        Eficiencia:Los contenedores son más ligeros que las máquinas virtuales, lo que permite ejecutar múltiples contenedores en un mismo servidor físico sin degradación significativa del rendimiento.
+                                    </div>
+                                </div>                               
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Fin Experiencia -->  
+            
+            <section class="page-section" id="nube">
+                <div class="container position-relative">
+                    <div class="row mb-60 mb-xs-30">
+                        <div class="col-md-6">
+                            <h2 class="section-caption mb-xs-10">ACERCA DE</h2>
+                            <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Desarrollo de Aplicaciones en la Nube</span></h3>
+                        </div>
+                        <img src="images/desarrollo-de-aplicaciones-web.jpg" alt="" />
+                        <p class="text-gray">
+                            El desarrollo de aplicaciones para la nube implica diseñar, construir y desplegar software que se ejecuta en infraestructuras de computación en la nube, 
+                            como AWS (Amazon Web Services), Azure de Microsoft o Google Cloud Platform.</p>
+    
+    
+                                <h4 class="h5" style="margin-top: 80px;">Arquitectura de aplicaciones para la nube:</h4>
+                                <p class="text-gray"> •	Las aplicaciones para la nube suelen seguir arquitecturas distribuidas y escalables que aprovechan los servicios y recursos ofrecidos por los proveedores de la nube. 
+                                    se pueden utilizar diferentes modelos arquitectónicos, como la arquitectura de microservicios, que permite construir aplicaciones compuestas por servicios independientes y altamente escalables.</p>
+    
+                                <h4 class="h5" style="margin-top: 80px;">Servicios de la nube:</h4>
+                                <p class="text-gray"> • Estos servicios incluyen almacenamiento en la nube (como Amazon S3 o Google Cloud Storage), bases de datos en la nube (como Amazon RDS o Azure SQL Database), 
+                                    servicios de cómputo (como AWS Lambda o Google Cloud Functions), servicios de redes (como AWS VPC o Azure Virtual Network),
+                                     servicios de seguridad (como AWS Identity and Access Management o Azure Active Directory), entre otros.</p>
+    
+                                <h4 class="h5" style="margin-top: 80px;">Escalabilidad y resiliencia:</h4>
+                                <p class="text-gray"> • Los servicios en la nube proporcionan capacidades elásticas que permiten escalar los recursos de manera dinámica en función de la carga de trabajo, lo que garantiza un rendimiento óptimo incluso en momentos de alta demanda.</p>
+
+                                <h4 class="h5" style="margin-top: 80px;">Monitorización y gestión:</h4>
+                                <p class="text-gray"> • Estas herramientas pueden proporcionar métricas y registros detallados sobre el comportamiento de las aplicaciones, así como alertas en tiempo real sobre posibles problemas o violaciones de seguridad. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="page-section" id="nube">
+                <div class="container position-relative">
+                    <div class="row mb-60 mb-xs-30">
+                        <div class="col-md-6">
+                            <h2 class="section-caption mb-xs-10">ACERCA DE</h2>
+                            <h3 class="section-title mb-0"><span class="wow charsAnimIn" data-splitting="chars">Desarrollo de Aplicaciones en ASP.NET</span></h3>
+                        </div>
+                        <p class="text-gray">
+                            El desarrollo de aplicaciones web en ASP.NET es un proceso que implica utilizar el framework ASP.NET, desarrollado por Microsoft, para crear aplicaciones web dinámicas y robustas utilizando el lenguaje de programación C# (o Visual Basic .NET) y tecnologías relacionadas. </p>
+    
+                        </div>
+                        <img src="images/desarrollo-de-aplicaciones-web-asp-net-mvc.png" alt="" />
+                    </div>
+                </div>
+    
+            </section>
+            <section class="page-section" id="asp"></section>
+            <section class="page-section bg-dark-1 bg-dark-alpha-80 parallax-5 light-content"
+                style="background-image: url(images/Contenedor.png)">
+                <div class="container position-relative">
+                    <div class="row">
+                        <div class="col-lg-4 mb-md-60 mb-xs-50">
+                            <h2 class="section-title mb-20 wow fadeInUp">ASP.NET Web Forms:</h2>
+                            <p class="section-descr mb-40 wow fadeInUp" data-wow-delay="0.1s">
+                                Un modelo de programación basado en controles de servidor que simplifica el desarrollo de aplicaciones web con una estructura de eventos similar a la programación de aplicaciones de escritorio.
+                            </p>
+                            
+                        </div>
+                        <div class="col-lg-7 offset-lg-1">                           
+                            <div class="row mt-n50 mt-xs-n30">                                
+                                <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.4s">
+                                    <div class="number-title mb-10">
+                                        ASP.NET MVC:
+                                    </div>
+                                    <div class="number-descr">
+                                        Un patrón de diseño basado en el modelo-vista-controlador que separa la lógica de presentación de la lógica de negocio y facilita la creación de aplicaciones web escalables y mantenibles.
+                                    </div>
+                                </div>              
+                                <div class="col-sm-6 col-lg-5 offset-lg-2 mt-50 mt-xs-30 wow fadeScaleIn"
+                                    data-wow-delay="0.6s">
+                                    <div class="number-title mb-10">
+                                        ASP.NET Web API:
+                                    </div>
+                                    <div class="number-descr">
+                                        Un framework para construir servicios web HTTP basados en RESTful que permiten la comunicación entre aplicaciones cliente y servidor a través de la web.
+                                    </div>
+                                </div>                              
+                                <div class="col-sm-6 col-lg-5 mt-50 mt-xs-30 wow fadeScaleIn" data-wow-delay="0.8s">
+                                    <div class="number-title mb-10">
+                                        ASP.NET Core:
+                                    </div>
+                                    <div class="number-descr">
+                                        La evolución de ASP.NET que es multiplataforma, de código abierto y altamente modular, lo que facilita la creación de aplicaciones web modernas y de alto rendimiento.
+                                    </div>   
+                                </div>  
+
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+
+           <center><iframe width="760" height="515" src="https://www.youtube.com/embed/b9qj3mK5JEM?si=VXmh2midKQjpMSpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            
+           
+
+        </main>
+    </div>   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/all.js"></script> 
+</body>
+</html>
